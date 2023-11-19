@@ -28,11 +28,11 @@ app.post("/post3", (req, res) => {
   console.log(result);
 
   if (result == 1) {
-    console.log("hello");
+    console.log("hello2");
     res.send("hello");
   }
   if (result == 2) {
-    console.log("world");
+    console.log("world2");
     res.send("world");
   }
   if (result == 3) {
